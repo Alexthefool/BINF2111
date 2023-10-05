@@ -1,0 +1,45 @@
+Please submit a script for the questions that state "Write a script…". If you do not submit a script, you will not get full credit for that question. Scripts must start with a hashbang and file names must end with .sh! You may submit one script for all of the questions or one script for each question.
+
+1. You tried to save MultiN.fastq from a text editor and it got corrupted (corrupted.fq). Give the bash command to find the corrupted sections by looking for the differences between the two files (1 pt).
+
+ 
+
+What were the differences/output? (1 pt)
+
+ 
+
+2. Write a bash script that converts any TSV to a CSV and prints out the CSV (1 pt). Give the command to run the file in a comment (1 pt). Hint: Use an input variable!
+
+ 
+
+3. Given the following three strings, write a bash script that uses if statements to find which string is the biggest (1 pt). Print out a meaningful statement that contains the string number (1, 2, or 3) and the string itself (1 pt).
+
+1. This is a string
+
+2. Hello
+
+3. Strings are very cool
+
+ 
+
+4. Write a bash script that uses a for loop to look at all the FASTA files in your current directory (1 pt). Print out the file name and the headers in that file (1 pt). Remember that FASTA headers start with >.
+
+ 
+
+5. Write a bash script that prints a given range of lines from a given file (1 pt).
+
+For example, ./script.sh file.tsv 2 5 would print lines 2 to 5 from file.tsv. Give the command to run the file in a comment (1 pt).
+
+ 
+
+Bonus I (1 pts): Write a bash script that counts the number of ATG (starts), Serine (S), Arginine (R), and TAA, TAG, TGA (stops) from the example2.fasta file. Then, convert them into single letter amino acids and print out the original file and the converted file: 
+
+M for ATG
+S for Serine
+R for Arginine
+* for TAA, TAG, and TGA
+ 
+
+Bonus II (3 pts): Write a bash script that looks through all of the files given as parameters. If a file ends in .txt, skip over that file. If it does not end in .txt, create a new file with the same contents as the current file and make it end in .txt.
+
+ 
