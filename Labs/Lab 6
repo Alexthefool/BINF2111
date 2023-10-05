@@ -1,0 +1,51 @@
+Please submit a script for the questions that state "Write a script…". If you do not submit a script, you will not get full credit for that question. Scripts must start with a hashbang and file names must end with .sh! You may submit one script for all of the questions or one script for each question.
+
+1. Write bash script that contains an array with these amino acids: 
+
+Methionine
+Leucine
+Cysteine
+Alanine
+Valine
+Tyrosine
+Proline
+Use a for loop to print each item and its length (1 pt).
+
+
+
+2. Write a bash script that uses a while loop to read through a given file. Print each line in the file and the character count of that line (1 pt).
+
+ 
+
+3. Write a bash script for the following pseudo code (1 pt):
+
+Counter variable equal to 0
+Quote variable equal to "This script will run again"
+
+Until counter is not less than 10
+     Print quote
+     Set quote equal to quote + " and again"
+     Increment counter (add 1)
+End until
+
+Print "Until it is done"
+ 
+
+4. Write a bash script that contains a function that prints the following: your name, your username, the date/time, and your current directory (1 pt). Make sure you call the function!
+
+ 
+
+5. Write a bash script that contains a function that will add any two numbers together. Within the function, print both numbers and the sum. Return 0 to signify that the function was successfully executed. Call the function three separate times, using different numbers each time (1 pt).
+
+ 
+
+6. Make a public GitHub repository called BINF-2111 (or BINF2111, it's up to you). Make the following directories in your repository (2 pts):
+
+Labs
+Notes
+Lectures
+Resources
+Practice Scripts
+There should be a readme file and at least 2 files in each directory (1 pt). Additionally, the repo's readme should contain your name, the semester we are in (Fall 2023), your major, and your year (freshman, sophomore, junior, senior, fifth year) (2 pts). (5 pts total)
+
+Submit a link to your repository for grading.
